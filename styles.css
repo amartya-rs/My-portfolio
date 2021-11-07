@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #34D399;
+    --sec-color: #ECFDF5;
+    --support-color: #60A5FA;
+
+}
+
+body {
+    background-color: var(--sec-color);
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/*links*/
+a {
+    color: var(--sec-color);
+    text-decoration: none;
+}
+
+
+.link-button {
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    padding: 0.7rem 0.7rem;
+
+}
+
+
+/*navigation*/
+.navigation {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.40rem;
+    /* border-style: inset;
+    border-color: var(--support-color); */
+    /* text-align: right;*/
+}
+
+.nav-head {
+
+    text-align: justify;
+    padding-left: 0.35rem;
+    
+}
+
+.nav-span {
+
+    /* padding-top: 1000px; not working find the reason */
+    padding-left: 30px;
+    font-size: 1.2rem;
+    color: var(--sec-color);
+}
+
+.nav-menu {
+    text-align: right;
+}
+
+
+.nav-menu-list {
+    display: inline;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-align: right;
+}
+
+/*header*/
+header {
+    color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+}
+
+/* .header-img {
+    border-style: solid;
+} */
+
+/*sections*/
+section {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: var(--sec-color);
+    margin: auto;
+    text-align: center;
+}
+
+.alternate {
+    background-color: var(--sec-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: var(--primary-color);
+    margin: auto;
+    text-align: center;
+    border: solid 1px;
+}
+
+
+/* .list-items {
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-align: right;
+    
+} */
+
+/*footer*/
+footer {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 0.40rem;
+}
+
+.footer-menu {
+    text-align: right;
+}
+
+.footer-menu-items {
+    display: inline;
+    padding-right: 0.5rem;
+}
+
+.footer-span {
+    text-align: center
+}
