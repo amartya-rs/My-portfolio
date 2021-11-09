@@ -165,3 +165,12 @@ footer {
     text-decoration: none;
 }
 
+/****Projects.html****/
+.project-top-section{
+    margin-top: 5rem;
+}
+
+.project-btn {
+    margin: 0.5rem 0.5rem;
+
+}
