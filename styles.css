@@ -38,9 +38,6 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     padding: 0.5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    border-radius: 0.40rem;
     /* border-style: inset;
     border-color: var(--support-color); */
     /* text-align: right;*/
@@ -59,6 +56,8 @@ hr {
     padding-left: 30px;
     font-size: 1.2rem;
     color: var(--sec-color);
+    font-size: x-large;
+    font-family: cursive;
 }
 
 .nav-menu {
@@ -71,6 +70,7 @@ hr {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     text-align: right;
+    font-size: large;
 }
 
 /*header*/
@@ -80,9 +80,6 @@ header {
     margin: auto;
 }
 
-/* .header-img {
-    border-style: solid;
-} */
 
 /*sections*/
 section {
@@ -135,12 +132,9 @@ section div {
 
 footer {
     background-color: var(--primary-color);
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
     margin-top: 4rem;
-    border-radius: 0.40rem;
 }
 
 .footer-menu {
@@ -151,6 +145,7 @@ footer {
 .footer-menu-items {
     display: inline;
     padding-right: 1rem;
+    font-size: large;
 }
 
 .footer-span {
