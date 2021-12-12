@@ -8,6 +8,7 @@
 body {
     background-color: var(--sec-color);
     margin: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 hr {
