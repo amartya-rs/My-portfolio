@@ -1,128 +1,130 @@
 :root {
-    --primary-color: #34D399;
-    --sec-color: #ECFDF5;
-    --support-color: #60A5FA;
-
+   --primary-color: #34d399;
+   --sec-color: #ecfdf5;
+   --support-color: #60a5fa;
 }
 
 body {
-    background-color: var(--sec-color);
-    margin: 0px;
-    font-family: 'Gloria Hallelujah', cursive;
+   background-color: var(--sec-color);
+   margin: 0px;
+   font-family: "Gloria Hallelujah", cursive;
 }
 
 hr {
-    margin: 2rem 0rem;
+   margin: 2rem 0rem;
 }
 
 /*links*/
 .button-primary {
-    background-color: var(--primary-color);
-    color: var(--sec-color);
-    
+   background-color: var(--primary-color);
+   color: var(--sec-color);
 }
 
 .button-secondary {
-    background-color: var(--sec-color);
-    color: var(--primary-color);
+   background-color: var(--sec-color);
+   color: var(--primary-color);
 }
+
 .button {
-    text-decoration: none;
-    border-radius: 0.8rem;
-    padding: 0.7rem 0.7rem;
-    margin-bottom: 50px;
-
+   text-decoration: none;
+   border-radius: 0.8rem;
+   padding: 0.7rem 0.7rem;
+   margin-bottom: 50px;
 }
 
+.button-tertiary {
+   background-color: var(--support-color);
+   color: var(--sec-color);
+}
+
+.button-tertiary-inv {
+   color: var(--support-color);
+   background-color: var(--sec-color);
+}
 
 /*navigation*/
 .navigation {
-    background-color: var(--primary-color);
-    padding: 0.5rem;
-    /* border-style: inset;
+   background-color: var(--primary-color);
+   padding: 0.5rem;
+   /* border-style: inset;
     border-color: var(--support-color); */
-    /* text-align: right;*/
+   /* text-align: right;*/
 }
 
 .nav-head {
-
-    text-align: justify;
-    padding-left: 0.35rem;
-    
+   text-align: justify;
+   padding-left: 0.35rem;
 }
 
 .nav-span {
-
-    /* padding-top: 1000px; not working find the reason */
-    padding-left: 30px;
-    font-size: 1.2rem;
-    color: var(--sec-color);
-    font-size: x-large;
-    font-family: cursive;
+   /* padding-top: 1000px; not working find the reason */
+   padding-left: 30px;
+   font-size: 1.2rem;
+   color: var(--sec-color);
+   font-size: x-large;
+   font-family: cursive;
 }
 
 .nav-menu {
-    text-align: right;
+   text-align: right;
 }
 
-
 .nav-menu-list {
-    display: inline;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    text-align: right;
-    font-size: large;
+   display: inline;
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+   text-align: right;
+   font-size: large;
 }
 
 /*header*/
 header {
-    color: var(--primary-color);
-    text-align: center;
-    margin: auto;
+   color: var(--primary-color);
+   text-align: center;
+   margin: auto;
 }
-
 
 /*sections*/
 section {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    padding: 1rem 1rem;
-    color: var(--sec-color);
-    margin-left: 5rem;
-    margin-right: 5rem;
-    text-align: center;
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   padding: 1rem 1rem;
+   color: var(--sec-color);
+   margin-left: 5rem;
+   margin-right: 5rem;
+   text-align: center;
 }
 
 .alternate {
-    background-color: var(--sec-color);
-    border-radius: 0.5rem;
-    padding: 1rem 1rem;
-    color: var(--primary-color);
-    margin-right: 5rem;
-    margin-right: 5rem;
-    text-align: center;
-    border: solid 1px;
+   background-color: var(--sec-color);
+   border-radius: 0.5rem;
+   padding: 1rem 1rem;
+   color: var(--primary-color);
+   margin-right: 5rem;
+   margin-right: 5rem;
+   text-align: center;
+   border: solid 1px;
 }
 
 section .link-button {
-    padding: 1rem 1rem;
+   padding: 1rem 1rem;
 }
 
 section div {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
 }
 
 .alternate div {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1rem;
 }
 
 /* .list-items {
     display: inline;
     padding: 0rem 0.5rem;
     text-align: right;
-    
+
 } */
 
 /*footer*/
@@ -132,45 +134,54 @@ section div {
 } */
 
 footer {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    text-align: center;
-    margin-top: 4rem;
+   background-color: var(--primary-color);
+   padding: 1rem;
+   text-align: center;
+   margin-top: 4rem;
 }
 
 .footer-menu {
-    text-align: center;
-    padding: 0px 0px;
+   text-align: center;
+   padding: 0px 0px;
 }
 
 .footer-menu-items {
-    display: inline;
-    padding-right: 1rem;
-    font-size: large;
+   display: inline;
+   padding-right: 1rem;
+   font-size: large;
 }
 
 .footer-span {
-    text-align: right;
-    color: var(--sec-color);
-    font-size: large;
-    
+   text-align: right;
+   color: var(--sec-color);
+   font-size: large;
 }
 
 .footer-links {
-    color: var(--sec-color);
-    text-decoration: none;
+   color: var(--sec-color);
+   text-decoration: none;
 }
 
 /****Projects.html****/
-.project-top-section{
-    margin-top: 5rem;
+.project-top-section {
+   margin-top: 5rem;
 }
 
 .project-btn {
-    margin: 0.5rem 0.5rem;
-
+   margin: 0.5rem 0.5rem;
 }
 
 header h3 {
-    font-size: x-large;
+   font-size: x-large;
+}
+
+.heading {
+   margin: 1.5rem 5rem;
+   color: var(--primary-color);
+   font-size: xx-large;
+   text-align: center;
+}
+
+.divider {
+   margin: 2.5rem 5rem;
 }
